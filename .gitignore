@@ -1,0 +1,34 @@
+# .gitignore
+
+# --- DBT Specific settings ---
+target/
+dbt_packages/
+logs/
+
+# --- Python Tools for Visual Studio (PTVS) ---
+__pycache__/
+.pytest_cache/
+[Vv]env/
+*.pyc
+
+# --- JetBrains Pycharm/Rider ---
+.idea/
+*.sln.iml
+
+# --- Personal Settings ---
+
+# Folders
+.coverage/
+.vscode/
+[Dd]ata/
+[Ee]nv/
+[Rr]eferences/
+
+# Files
+[Dd]ata/*.sqlite3
+[Dd]ata/*.dapac
+*.sublime-project
+*.sublime-workspace
+*.xlsx
+connections.txt
+connections.md

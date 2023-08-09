@@ -1,0 +1,28 @@
+version: 2
+
+# Template by Fellowmind Denmark A/S
+
+models:
+  - name: raw_Customer
+    description: ""
+    columns:
+      - name: CustomerID
+        description: ""
+
+      - name: PersonID
+        description: ""
+
+      - name: StoreID
+        description: ""
+
+      - name: TerritoryID
+        description: ""
+
+      - name: AccountNumber
+        description: ""
+
+      - name: rowguid
+        description: ""
+
+      - name: ModifiedDate
+        description: ""

@@ -1,0 +1,46 @@
+version: 2
+
+# Template by Fellowmind Denmark A/S
+
+models:
+  - name: raw_Person
+    description: ""
+    columns:
+      - name: BusinessEntityID
+        description: ""
+
+      - name: PersonType
+        description: ""
+
+      - name: NameStyle
+        description: ""
+
+      - name: Title
+        description: ""
+
+      - name: FirstName
+        description: ""
+
+      - name: MiddleName
+        description: ""
+
+      - name: LastName
+        description: ""
+
+      - name: Suffix
+        description: ""
+
+      - name: EmailPromotion
+        description: ""
+
+      - name: AdditionalContactInfo
+        description: ""
+
+      - name: Demographics
+        description: ""
+
+      - name: rowguid
+        description: ""
+
+      - name: ModifiedDate
+        description: ""

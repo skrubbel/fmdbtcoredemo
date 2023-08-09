@@ -1,0 +1,115 @@
+version: 2
+
+# Template by Fellowmind Denmark A/S
+
+models:
+  - name: enriched_SalesTransactions
+    description: ""
+    columns:
+      - name: SalesOrderID
+        description: ""
+
+      - name: RevisionNumber
+        description: ""
+
+      - name: OrderDate
+        description: ""
+
+      - name: DueDate
+        description: ""
+
+      - name: ShipDate
+        description: ""
+
+      - name: Status
+        description: ""
+
+      - name: OnlineOrderFlag
+        description: ""
+
+      - name: SalesOrderNumber
+        description: ""
+
+      - name: PurchaseOrderNumber
+        description: ""
+
+      - name: AccountNumber
+        description: ""
+
+      - name: CustomerID
+        description: ""
+
+      - name: SalesPersonID
+        description: ""
+
+      - name: TerritoryID
+        description: ""
+
+      - name: BillToAddressID
+        description: ""
+
+      - name: ShipToAddressID
+        description: ""
+
+      - name: ShipMethodID
+        description: ""
+
+      - name: CreditCardID
+        description: ""
+
+      - name: CreditCardApprovalCode
+        description: ""
+
+      - name: CurrencyRateID
+        description: ""
+
+      - name: SubTotal
+        description: ""
+
+      - name: TaxAmt
+        description: ""
+
+      - name: Freight
+        description: ""
+
+      - name: TotalDue
+        description: ""
+
+      - name: Comment
+        description: ""
+
+      - name: HeaderRowGuid
+        description: ""
+
+      - name: HeaderModifiedDate
+        description: ""
+
+      - name: SalesOrderDetailID
+        description: ""
+
+      - name: CarrierTrackingNumber
+        description: ""
+
+      - name: OrderQty
+        description: ""
+
+      - name: ProductID
+        description: ""
+
+      - name: SpecialOfferID
+        description: ""
+
+      - name: UnitPrice
+        description: ""
+
+      - name: UnitPriceDiscount
+        description: ""
+
+      - name: LineTotal
+        description: ""
+
+      - name: DetailRowGuid
+        description: ""
+
+      - name: DetailsModifiedDate
+        description: ""

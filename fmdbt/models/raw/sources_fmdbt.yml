@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: dbo
+    tables:
+      - name: Customer
+      - name: Person
+      - name: SalesOrderDetail
+      - name: SalesOrderHeader
+      - name: Store
+      - name: SalesTerritory

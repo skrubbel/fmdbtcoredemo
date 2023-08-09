@@ -1,0 +1,85 @@
+version: 2
+
+# Template by Fellowmind Denmark A/S
+
+models:
+  - name: raw_SalesOrderHeader
+    description: ""
+    columns:
+      - name: SalesOrderID
+        description: ""
+
+      - name: RevisionNumber
+        description: ""
+
+      - name: OrderDate
+        description: ""
+
+      - name: DueDate
+        description: ""
+
+      - name: ShipDate
+        description: ""
+
+      - name: Status
+        description: ""
+
+      - name: OnlineOrderFlag
+        description: ""
+
+      - name: SalesOrderNumber
+        description: ""
+
+      - name: PurchaseOrderNumber
+        description: ""
+
+      - name: AccountNumber
+        description: ""
+
+      - name: CustomerID
+        description: ""
+
+      - name: SalesPersonID
+        description: ""
+
+      - name: TerritoryID
+        description: ""
+
+      - name: BillToAddressID
+        description: ""
+
+      - name: ShipToAddressID
+        description: ""
+
+      - name: ShipMethodID
+        description: ""
+
+      - name: CreditCardID
+        description: ""
+
+      - name: CreditCardApprovalCode
+        description: ""
+
+      - name: CurrencyRateID
+        description: ""
+
+      - name: SubTotal
+        description: ""
+
+      - name: TaxAmt
+        description: ""
+
+      - name: Freight
+        description: ""
+
+      - name: TotalDue
+        description: ""
+
+      - name: Comment
+        description: ""
+
+      - name: rowguid
+        description: ""
+
+      - name: ModifiedDate
+        description: ""

@@ -1,0 +1,37 @@
+version: 2
+
+# Template by Fellowmind Denmark A/S
+
+models:
+  - name: raw_SalesTerritory
+    description: ""
+    columns:
+      - name: TerritoryID
+        description: ""
+
+      - name: Name
+        description: ""
+
+      - name: CountryRegionCode
+        description: ""
+
+      - name: Group
+        description: ""
+
+      - name: SalesYTD
+        description: ""
+
+      - name: SalesLastYear
+        description: ""
+
+      - name: CostYTD
+        description: ""
+
+      - name: CostLastYear
+        description: ""
+
+      - name: rowguid
+        description: ""
+
+      - name: ModifiedDate
+        description: ""

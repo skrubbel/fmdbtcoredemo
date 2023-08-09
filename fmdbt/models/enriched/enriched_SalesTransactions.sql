@@ -1,0 +1,83 @@
+WITH source AS (
+  SELECT
+    sh.[SalesOrderID]
+    ,sh.[RevisionNumber]
+    ,sh.[OrderDate]
+    ,sh.[DueDate]
+    ,sh.[ShipDate]
+    ,sh.[Status]
+    ,sh.[OnlineOrderFlag]
+    ,sh.[SalesOrderNumber]
+    ,sh.[PurchaseOrderNumber]
+    ,sh.[AccountNumber]
+    ,sh.[CustomerID]
+    ,sh.[SalesPersonID]
+    ,sh.[TerritoryID]
+    ,sh.[BillToAddressID]
+    ,sh.[ShipToAddressID]
+    ,sh.[ShipMethodID]
+    ,sh.[CreditCardID]
+    ,sh.[CreditCardApprovalCode]
+    ,sh.[CurrencyRateID]
+    ,sh.[SubTotal]
+    ,sh.[TaxAmt]
+    ,sh.[Freight]
+    ,sh.[TotalDue]
+    ,sh.[Comment]
+    ,sh.[rowguid] AS HeaderRowGuid
+    ,sh.[ModifiedDate] AS HeaderModifiedDate
+    -- Detail
+    ,sd.[SalesOrderDetailID]
+    ,sd.[CarrierTrackingNumber]
+    ,sd.[OrderQty]
+    ,sd.[ProductID]
+    ,sd.[SpecialOfferID]
+    ,sd.[UnitPrice]
+    ,sd.[UnitPriceDiscount]
+    ,sd.[LineTotal]
+    ,sd.[rowguid] AS DetailRowGuid
+    ,sd.[ModifiedDate] AS DetailsModifiedDate
+  FROM {{ ref("raw_SalesOrderHeader") }} sh
+    LEFT JOIN {{ ref("raw_SalesOrderDetail")}} sd
+      ON  sh.SalesOrderID = sd.SalesOrderID
+)
+
+SELECT
+  [SalesOrderID]
+  ,[RevisionNumber]
+  ,[OrderDate]
+  ,[DueDate]
+  ,[ShipDate]
+  ,[Status]
+  ,[OnlineOrderFlag]
+  ,[SalesOrderNumber]
+  ,[PurchaseOrderNumber]
+  ,[AccountNumber]
+  ,[CustomerID]
+  ,[SalesPersonID]
+  ,[TerritoryID]
+  ,[BillToAddressID]
+  ,[ShipToAddressID]
+  ,[ShipMethodID]
+  ,[CreditCardID]
+  ,[CreditCardApprovalCode]
+  ,[CurrencyRateID]
+  ,[SubTotal]
+  ,[TaxAmt]
+  ,[Freight]
+  ,[TotalDue]
+  ,[Comment]
+  ,[HeaderRowGuid]
+  ,[HeaderModifiedDate]
+  -- Details
+  ,[SalesOrderDetailID]
+  ,[CarrierTrackingNumber]
+  ,[OrderQty]
+  ,[ProductID]
+  ,[SpecialOfferID]
+  ,[UnitPrice]
+  ,[UnitPriceDiscount]
+  ,[LineTotal]
+  ,[DetailRowGuid]
+  ,[DetailsModifiedDate]
+FROM source

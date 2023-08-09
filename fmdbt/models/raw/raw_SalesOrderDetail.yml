@@ -1,0 +1,40 @@
+version: 2
+
+# Template by Fellowmind Denmark A/S
+
+models:
+  - name: raw_SalesOrderDetail
+    description: ""
+    columns:
+      - name: SalesOrderID
+        description: ""
+
+      - name: SalesOrderDetailID
+        description: ""
+
+      - name: CarrierTrackingNumber
+        description: ""
+
+      - name: OrderQty
+        description: ""
+
+      - name: ProductID
+        description: ""
+
+      - name: SpecialOfferID
+        description: ""
+
+      - name: UnitPrice
+        description: ""
+
+      - name: UnitPriceDiscount
+        description: ""
+
+      - name: LineTotal
+        description: ""
+
+      - name: rowguid
+        description: ""
+
+      - name: ModifiedDate
+        description: ""

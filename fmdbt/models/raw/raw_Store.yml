@@ -1,0 +1,25 @@
+version: 2
+
+# Template by Fellowmind Denmark A/S
+
+models:
+  - name: raw_Store
+    description: ""
+    columns:
+      - name: BusinessEntityID
+        description: ""
+
+      - name: Name
+        description: ""
+
+      - name: SalesPersonID
+        description: ""
+
+      - name: Demographics
+        description: ""
+
+      - name: rowguid
+        description: ""
+
+      - name: ModifiedDate
+        description: ""
