@@ -8,6 +8,8 @@ models:
     columns:
       - name: CustomerKey
         description: "Surrogate Key for Customer"
+        datatype: "test"
+        mycustomtag: ""
 
       - name: CustomerID
         description: "This describes the **CustomerID** __column__"

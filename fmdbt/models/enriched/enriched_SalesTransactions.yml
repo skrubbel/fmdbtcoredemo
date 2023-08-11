@@ -4,7 +4,7 @@ version: 2
 
 models:
   - name: enriched_SalesTransactions
-    description: "This describes the **enriched_SalesTransactions** _model_"
+    description: "{{ doc('enriched_SalesTransactions') }}"
     columns:
       - name: SalesOrderID
         description: "This describes the **SalesOrderID** _column_"

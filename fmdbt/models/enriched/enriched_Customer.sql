@@ -17,7 +17,7 @@ WITH source AS (
     ,cus."TerritoryID"
     ,cus."AccountNumber"
     ,cus."rowguid"
-    ,CASE WHEN cus."ModifiedDate" > prs.[ModifiedDate] THEN cus."ModifiedDate" ELSE prs."ModifiedDate" END AS ModifiedDate
+    ,CASE WHEN cus."ModifiedDate" > ISNULL(prs.[ModifiedDate], '1900-01-01 00:00:00') THEN cus."ModifiedDate" ELSE prs."ModifiedDate" END AS ModifiedDate
     ,fld."FirstOrderDate"
     ,fld."LastOrderDate"
     ,CONCAT(

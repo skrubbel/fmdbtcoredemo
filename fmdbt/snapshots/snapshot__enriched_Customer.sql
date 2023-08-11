@@ -5,7 +5,7 @@
 		target_schema='dbt_snapshots',
 		unique_key='CustomerKey',
 		strategy='check',
-		check_cols=['PersonID', 'StoreID', 'TerritoryID', 'AccountNumber'],
+		check_cols=['PersonID', 'StoreID', 'TerritoryID', 'AccountNumber', 'CustomerDisplayName'],
 		invalidate_hard_deletes=True
 	)
 }}
