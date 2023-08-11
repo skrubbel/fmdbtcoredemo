@@ -5,6 +5,15 @@ version: 2
 models:
   - name: raw_SalesOrderDetail
     description: ""
+    tests:
+      - multiplication:
+          unit_value_column: UnitPrice
+          multiplier_column: OrderQty
+          discount_column: UnitPriceDiscount
+          target_value: LineTotal
+          config:
+            store_failures: true
+
     columns:
       - name: SalesOrderID
         description: ""
@@ -32,6 +41,11 @@ models:
 
       - name: LineTotal
         description: ""
+        tests:
+          - large_values:
+              threshold_value: 100000
+              config:
+                store_failures: true
 
       - name: rowguid
         description: ""
