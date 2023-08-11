@@ -1,0 +1,25 @@
+version: 2
+
+# Template by Fellowmind Denmark A/S
+
+models:
+  - name: Dim_Customer
+    description: ""
+    columns:
+      - name: CustomerKey
+        description: "Surrogate Key for Customer"
+
+      - name: CustomerID
+        description: "This describes the **CustomerID** __column__"
+
+      - name: PersonID
+        description: "This describes the **PersonID** __column__"
+
+      - name: StoreID
+        description: "This describes the **StoreID** __column__"
+
+      - name: TerritoryID
+        description: "This describes the **TerritoryID** __column__"
+
+      - name: AccountNumber
+        description: "This describes the **AccountNumber** __column__"

@@ -4,112 +4,106 @@ version: 2
 
 models:
   - name: enriched_SalesTransactions
-    description: ""
+    description: "This describes the **enriched_SalesTransactions** _model_"
     columns:
       - name: SalesOrderID
-        description: ""
+        description: "This describes the **SalesOrderID** _column_"
 
       - name: RevisionNumber
-        description: ""
+        description: "This describes the **RevisionNumber** _column_"
 
       - name: OrderDate
-        description: ""
+        description: "This describes the **OrderDate** _column_"
 
       - name: DueDate
-        description: ""
+        description: "This describes the **DueDate** _column_"
 
       - name: ShipDate
-        description: ""
+        description: "This describes the **ShipDate** _column_"
 
       - name: Status
-        description: ""
+        description: "This describes the **Status** _column_"
 
       - name: OnlineOrderFlag
-        description: ""
+        description: "This describes the **OnlineOrderFlag** _column_"
 
       - name: SalesOrderNumber
-        description: ""
+        description: "This describes the **SalesOrderNumber** _column_"
 
       - name: PurchaseOrderNumber
-        description: ""
+        description: "This describes the **PurchaseOrderNumber** _column_"
 
       - name: AccountNumber
-        description: ""
+        description: "This describes the **AccountNumber** _column_"
 
       - name: CustomerID
-        description: ""
+        description: "This describes the **CustomerID** _column_"
 
       - name: SalesPersonID
-        description: ""
+        description: "This describes the **SalesPersonID** _column_"
 
       - name: TerritoryID
-        description: ""
+        description: "This describes the **TerritoryID** _column_"
 
       - name: BillToAddressID
-        description: ""
+        description: "This describes the **BillToAddressID** _column_"
 
       - name: ShipToAddressID
-        description: ""
+        description: "This describes the **ShipToAddressID** _column_"
 
       - name: ShipMethodID
-        description: ""
+        description: "This describes the **ShipMethodID** _column_"
 
       - name: CreditCardID
-        description: ""
+        description: "This describes the **CreditCardID** _column_"
 
       - name: CreditCardApprovalCode
-        description: ""
+        description: "This describes the **CreditCardApprovalCode** _column_"
 
       - name: CurrencyRateID
-        description: ""
+        description: "This describes the **CurrencyRateID** _column_"
 
-      - name: SubTotal
-        description: ""
+      - name: Calc_TaxAmtQuota
+        description: "This describes the **Calc_TaxAmtQuota** _column_"
 
-      - name: TaxAmt
-        description: ""
-
-      - name: Freight
-        description: ""
-
-      - name: TotalDue
-        description: ""
+      - name: Calc_FreightQuota
+        description: "This describes the **Calc_Freight_Quota** _column_"
 
       - name: Comment
-        description: ""
+        description: "This describes the **Comment** _column_"
 
       - name: HeaderRowGuid
-        description: ""
+        description: "This describes the **HeaderRowGuid** _column_"
 
       - name: HeaderModifiedDate
-        description: ""
+        description: "This describes the **HeaderModifiedDate** _column_"
 
       - name: SalesOrderDetailID
-        description: ""
+        description: "This describes the **SalesOrderDetailID** _column_"
 
       - name: CarrierTrackingNumber
-        description: ""
+        description: "This describes the **CarrierTrackingNumber** _column_"
 
       - name: OrderQty
-        description: ""
+        description: "This describes the **OrderQty** _column_"
 
       - name: ProductID
-        description: ""
+        description: "This describes the **ProductID** _column_"
 
       - name: SpecialOfferID
-        description: ""
+        description: "This describes the **SpecialOfferID** _column_"
 
       - name: UnitPrice
-        description: ""
+        description: "This describes the **UnitPrice** _column_"
 
       - name: UnitPriceDiscount
-        description: ""
+        description: "This describes the **UnitPriceDiscount** _column_"
 
       - name: LineTotal
-        description: ""
+        description: "This describes the **LineTotal** _column_"
 
       - name: DetailRowGuid
-        description: ""
+        description: "This describes the **DetailRowGuid** _column_"
 
       - name: DetailsModifiedDate
-        description: ""
+        description: "This describes the **DetailsModifiedDate** _column_"

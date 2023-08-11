@@ -1,18 +1,18 @@
 WITH source AS (
-  SELECT *
-
+  SELECT 
+    *
   FROM {{ source('dbo', 'SalesTerritory') }}
 )
 
 SELECT DISTINCT
-  [TerritoryID],
-  [Name],
-  [CountryRegionCode],
-  [Group],
-  [SalesYTD],
-  [SalesLastYear],
-  [CostYTD],
-  [CostLastYear],
-  [rowguid],
-  [ModifiedDate]
+  "TerritoryID"
+  ,"Name"
+  ,"CountryRegionCode"
+  ,"Group"
+  ,"SalesYTD"
+  ,"SalesLastYear"
+  ,"CostYTD"
+  ,"CostLastYear"
+  ,"rowguid"
+  ,"ModifiedDate"
 FROM source

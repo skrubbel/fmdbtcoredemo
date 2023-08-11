@@ -1,0 +1,25 @@
+version: 2
+
+# Template by Fellowmind Denmark A/S
+
+models:
+  - name: enriched_Store
+    description: "This describes the **enriched_Store** model"
+    columns:
+      - name: BusinessEntityID
+        description: "This describes the **BusinessEntityID** __column__"
+
+      - name: Name
+        description: "This describes the **Name** __column__"
+
+      - name: SalesPersonID
+        description: "This describes the **SalesPersonID** __column__"
+
+      - name: Demographics
+        description: "This describes the **Demographics** __column__"
+
+      - name: rowguid
+        description: "This describes the **rowguid** __column__"
+
+      - name: ModifiedDate
+        description: "This describes the **ModifiedDate** __column__"

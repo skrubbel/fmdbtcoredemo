@@ -1,7 +1,7 @@
 WITH source AS (
   SELECT 
     *
-  FROM {{ source('dbo', 'Store') }}
+  FROM {{ ref('raw_Store')}}
 )
 
 SELECT DISTINCT

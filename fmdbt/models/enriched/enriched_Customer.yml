@@ -1,0 +1,60 @@
+version: 2
+
+# Template by Fellowmind Denmark A/S
+
+models:
+  - name: enriched_Customer
+    description: "This describes the **enriched_Customer** _model_"
+    columns:
+      - name: CustomerKey
+        description: "The **surrogate key** for the Customer"
+
+      - name: CustomerID
+        description: "This describes the **CustomerID** _column_"
+        tests:
+          - unique
+
+      - name: PersonID
+        description: "This describes the **PersonID** _column_"
+        tests:
+          - our_not_null:
+              config:
+                store_failures: true
+
+      - name: StoreID
+        description: "This describes the **StoreID** _column_"
+        tests:
+          - our_not_null:
+              config:
+                store_failures: true
+
+      - name: TerritoryID
+        description: "This describes the **TerritoryID** _column_"
+        tests:
+          - our_not_null:
+              config:
+                store_failures: true
+
+      - name: AccountNumber
+        description: "This describes the **AccountNumber** _column_"
+
+      - name: rowguid
+        description: "This describes the **rowguid** _column_"
+
+      - name: ModifiedDate
+        description: "This describes the **ModifiedDate** _column_"
+
+      - name: FirstOrderDate
+        description: "MIN(OrderDate) for corresponding CustomerID from enriched_SalesTransactions"
+
+      - name: LastOrderDate
+        description: "MAX(OrderDate) for corresponding CustomerID from enriched_SalesTransactions"
+
+      - name: CustomerDisplayName
+        description: "This describes the **CustomerDisplayName** _column_"
+
+      - name: FirstName
+        description: "This describes the **FirstName** _column_"
+
+      - name: LastName
+        description: "This describes the **LastName** _column_"

@@ -1,0 +1,25 @@
+version: 2
+
+# Template by Fellowmind Denmark A/S
+
+models:
+  - name: Dim_SalesTerritory
+    description: "This describes the **Dim_SalesTerritory** __model__"
+    columns:
+      - name: TerritoryID
+        description: "This describes the **TerritoryID** __column__"
+
+      - name: Name
+        description: "This describes the **Name** __column__"
+
+      - name: CountryRegionCode
+        description: "This describes the **CountryRegionCode** __column__"
+
+      - name: Group
+        description: "This describes the **Group** __column__"
+
+      - name: rowguid
+        description: "This describes the **rowguid** __column__"
+
+      - name: ModifiedDate
+        description: "This describes the **ModifiedDate** __column__"

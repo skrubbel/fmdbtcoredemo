@@ -1,0 +1,115 @@
+version: 2
+
+# Template by Fellowmind Denmark A/S
+
+models:
+  - name: Fact_Sales
+    description: "This describes the **Fact_Sales** __model__"
+    columns:
+      - name: SalesOrderID
+        description: "This describes the **SalesOrderID** __column__"
+
+      - name: RevisionNumber
+        description: "This describes the **RevisionNumber** __column__"
+
+      - name: OrderDate
+        description: "This describes the **OrderDate** __column__"
+
+      - name: DueDate
+        description: "This describes the **DueDate** __column__"
+
+      - name: ShipDate
+        description: "This describes the **ShipDate** __column__"
+
+      - name: Status
+        description: "This describes the **Status** __column__"
+
+      - name: OnlineOrderFlag
+        description: "This describes the **OnlineOrderFlag** __column__"
+
+      - name: SalesOrderNumber
+        description: "This describes the **SalesOrderNumber** __column__"
+
+      - name: PurchaseOrderNumber
+        description: "This describes the **PurchaseOrderNumber** __column__"
+
+      - name: AccountNumber
+        description: "This describes the **AccountNumber** __column__"
+
+      - name: CustomerID
+        description: "This describes the **CustomerID** __column__"
+
+      - name: SalesPersonID
+        description: "This describes the **SalesPersonID** __column__"
+
+      - name: TerritoryID
+        description: "This describes the **TerritoryID** __column__"
+
+      - name: BillToAddressID
+        description: "This describes the **BillToAddressID** __column__"
+
+      - name: ShipToAddressID
+        description: "This describes the **ShipToAddressID** __column__"
+
+      - name: ShipMethodID
+        description: "This describes the **ShipMethodID** __column__"
+
+      - name: CreditCardID
+        description: "This describes the **CreditCardID** __column__"
+
+      - name: CreditCardApprovalCode
+        description: "This describes the **CreditCardApprovalCode** __column__"
+
+      - name: CurrencyRateID
+        description: "This describes the **CurrencyRateID** __column__"
+
+      - name: SubTotal
+        description: "This describes the **SubTotal** __column__"
+
+      - name: TaxAmt
+        description: "This describes the **TaxAmt** __column__"
+
+      - name: Freight
+        description: "This describes the **Freight** __column__"
+
+      - name: TotalDue
+        description: "This describes the **TotalDue** __column__"
+
+      - name: Comment
+        description: "This describes the **Comment** __column__"
+
+      - name: HeaderRowGuid
+        description: "This describes the **HeaderRowGuid** __column__"
+
+      - name: HeaderModifiedDate
+        description: "This describes the **HeaderModifiedDate** __column__"
+
+      - name: SalesOrderDetailID
+        description: "This describes the **SalesOrderDetailID** __column__"
+
+      - name: CarrierTrackingNumber
+        description: "This describes the **CarrierTrackingNumber** __column__"
+
+      - name: OrderQty
+        description: "This describes the **OrderQty** __column__"
+
+      - name: ProductID
+        description: "This describes the **ProductID** __column__"
+
+      - name: SpecialOfferID
+        description: "This describes the **SpecialOfferID** __column__"
+
+      - name: UnitPrice
+        description: "This describes the **UnitPrice** __column__"
+
+      - name: UnitPriceDiscount
+        description: "This describes the **UnitPriceDiscount** __column__"
+
+      - name: LineTotal
+        description: "This describes the **LineTotal** __column__"
+
+      - name: DetailRowGuid
+        description: "This describes the **DetailRowGuid** __column__"
+
+      - name: DetailsModifiedDate
+        description: "This describes the **DetailsModifiedDate** __column__"
