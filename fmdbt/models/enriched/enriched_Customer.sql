@@ -27,6 +27,7 @@ WITH source AS (
     ) AS CustomerDisplayName
     ,ISNULL(prs."FirstName", 'Customer#') AS FirstName
     ,ISNULL(prs."LastName", CAST(cus."CustomerID" AS varchar(20))) AS LastName
+    ,prs."EmailPromotion"
   FROM {{ ref('raw_Customer') }} cus
     LEFT JOIN {{ ref('raw_Person') }} prs
       ON cus."PersonID" = prs."BusinessEntityID"
@@ -48,4 +49,5 @@ SELECT
     ,"CustomerDisplayName"
     ,"FirstName"
     ,"LastName"
+    ,"EmailPromotion"
 FROM source

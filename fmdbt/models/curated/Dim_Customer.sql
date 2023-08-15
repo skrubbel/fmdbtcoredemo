@@ -18,4 +18,5 @@ SELECT
     ,"CustomerDisplayName"
     ,"FirstName"
     ,"LastName"
+    ,"EmailPromotion"
 FROM source

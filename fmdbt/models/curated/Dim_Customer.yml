@@ -8,6 +8,8 @@ models:
     columns:
       - name: CustomerKey
         description: "Surrogate Key for Customer"
+        tests:
+          - unique
 
       - name: CustomerID
         description: "This describes the **CustomerID** __column__"
@@ -23,3 +25,6 @@ models:
 
       - name: AccountNumber
         description: "This describes the **AccountNumber** __column__"
+
+      - name: EmailPromotion
+        description: ""

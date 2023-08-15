@@ -27,7 +27,8 @@ for element_type in [
     "parent_map",
     "child_map",
 ]:  # navigate into manifest
-    # We transform to list to not change dict size during iteration, we use default value {} to handle KeyError
+    # We transform to list to not change dict size during iteration
+    # we use default value {} to handle KeyError
     for key in list(json_manifest.get(element_type, {}).keys()):
         for ignore_project in IGNORE_PROJECTS:
             if re.match(

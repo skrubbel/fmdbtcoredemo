@@ -58,3 +58,6 @@ models:
 
       - name: LastName
         description: "This describes the **LastName** _column_"
+
+      - name: EmailPromotion
+        description: "Lorem Ipsum dolor sit amet"
